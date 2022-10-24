@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15494D3D-00C0-0336-0C90-7B472C567408" name="Staff">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:23:28 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="staff_id" id="1634DF85-9012-F6B0-CEDA-3C55B4BD7201">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:23:53 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tim_tim_id" id="1E502FC1-97D8-4431-8C8A-34B62852F143">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:15:26 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B9BECAD-C184-5D9A-9855-E04EBB703C81" referredColumn="06C22DB7-F791-451A-C5E3-D67873277483"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F2820D2-6870-F642-7918-5C2B6575A5AF" name="Staff_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:24:11 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1634DF85-9012-F6B0-CEDA-3C55B4BD7201"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A19CECC-6CA8-4561-245B-5E9A45E3AD7A" name="Staff_Tim_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:15:26 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E502FC1-97D8-4431-8C8A-34B62852F143"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

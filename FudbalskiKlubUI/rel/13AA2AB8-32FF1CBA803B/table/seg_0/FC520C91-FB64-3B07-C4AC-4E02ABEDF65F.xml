@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC520C91-FB64-3B07-C4AC-4E02ABEDF65F" name="Muzej">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:30:47 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="muzej_id" id="B4EE7A2D-0317-AB60-EADE-94431409C1A5">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:31:58 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kapacitet" id="BC5A7DF6-2728-2A97-F86D-185C8327E0AB">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:33:16 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stadion_stadion_id" id="17AF3589-18A6-D751-07B0-721AAF4C90C7">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:14:56 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB7DB249-DD24-5D74-CD45-89A13737BC3C" referredColumn="593E59FD-7BD9-41C8-31D2-E83B45346AC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="136D6F6E-6554-013E-A82A-597D58618B54" name="Muzej_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:31:58 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4EE7A2D-0317-AB60-EADE-94431409C1A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C614D807-4B5F-6697-AD4F-92B55921B639" name="Muzej_Stadion_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:14:56 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17AF3589-18A6-D751-07B0-721AAF4C90C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

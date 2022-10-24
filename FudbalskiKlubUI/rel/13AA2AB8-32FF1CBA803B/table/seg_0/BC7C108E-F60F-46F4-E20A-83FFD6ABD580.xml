@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC7C108E-F60F-46F4-E20A-83FFD6ABD580" name="Stratna_postava">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:33:47 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="startna_postava_id" id="D2F1D059-7F43-6FD2-5D6F-161AD1F16945">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:34:31 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Roster_roster_id" id="064D6C6F-E2F1-8E17-F444-030F7F2EB82A">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:15:38 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33E2AC8C-40B4-3FF0-2C20-EE4A15025C33" referredColumn="0B451D72-3874-ACA7-EEAF-80F0D5EEAA4A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC6FAF6D-03B8-4DC4-E26C-C803FD49D5D1" name="Stratna_postava_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:34:58 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2F1D059-7F43-6FD2-5D6F-161AD1F16945"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDCE6C5A-1965-C555-76F7-9DF6E630AE7F" name="Stratna_postava_Roster_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:15:38 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="064D6C6F-E2F1-8E17-F444-030F7F2EB82A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

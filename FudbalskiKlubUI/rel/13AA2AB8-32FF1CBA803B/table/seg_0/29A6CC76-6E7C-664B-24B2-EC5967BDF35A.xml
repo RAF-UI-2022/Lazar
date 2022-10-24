@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29A6CC76-6E7C-664B-24B2-EC5967BDF35A" name="Igraliste">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:27:15 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="igraliste_id" id="EA637CEE-D0F3-BD1B-32DA-1105D6204082">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:27:50 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stadion_stadion_id" id="AD363AF6-9585-858E-0A88-A259798579B0">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:15:02 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="302E87D6-ED58-BD79-1F7A-CD7EECFC46F1" referredColumn="593E59FD-7BD9-41C8-31D2-E83B45346AC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8266E42-0AA4-3AF8-D6A1-79B7FC94A5DD" name="Igraliste_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:28:37 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA637CEE-D0F3-BD1B-32DA-1105D6204082"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B242C81-595A-E7DC-36D5-66DF1249A37D" name="Igraliste_Stadion_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:15:02 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD363AF6-9585-858E-0A88-A259798579B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

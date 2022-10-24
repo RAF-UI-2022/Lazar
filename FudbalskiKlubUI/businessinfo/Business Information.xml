@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="D3FF9B2D-83DD-CC62-58E4-D9E72A3C7D89">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 15:36:32 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

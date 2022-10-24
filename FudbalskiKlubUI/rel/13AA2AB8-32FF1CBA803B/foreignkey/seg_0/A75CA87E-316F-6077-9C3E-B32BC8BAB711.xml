@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A75CA87E-316F-6077-9C3E-B32BC8BAB711" containerWithKeyObject="AA4722EC-CBF5-3CBB-4D80-148A08A0229F" localFKIndex="B9DA4DB1-8FD4-B8BA-5310-C47F1417E049" name="Omladinska_skola_Fudbalski_klub_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:27:59 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<referredTableLongName>Fudbalski_klub</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0DAC9092-F33A-C127-48C5-5B8BFA8CDD7B</referredTableID>
+<keyObject>9E1D0767-6545-BE55-1698-8FC4027DE5B7</keyObject>
+<referredKeyID>9E1D0767-6545-BE55-1698-8FC4027DE5B7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>fudbalski_klub_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35F6D639-C733-EF2B-242E-248A6F34D098" name="Atletska_staza">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:29:39 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="staza_id" id="7EA80F20-A892-E122-B3BB-78FD4358BF13">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:30:14 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duzina" id="C34C9153-FC09-6F55-099E-EE3CD4BA30BE">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:30:14 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Igraliste_igraliste_id" id="F8B6D4A9-5CE3-E631-2BF1-72DCC9DE26C1">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:15:22 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="254C5332-9F1A-6444-193F-DE14FF891448" referredColumn="EA637CEE-D0F3-BD1B-32DA-1105D6204082"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22496B5D-F5AD-C601-0F9A-CD8A5D647C66" name="Atletska_staza_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:30:14 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EA80F20-A892-E122-B3BB-78FD4358BF13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E700366F-EB62-B35E-80A8-D63BDCACC360" name="Atletska_staza_Igraliste_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:15:22 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8B6D4A9-5CE3-E631-2BF1-72DCC9DE26C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="FudbalskiKlubUI" id="93278E37-AB8C-998E-C8E1-C3ADFB7C8964" version="3.5">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 15:36:31 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>93278E37-AB8C-998E-C8E1-C3ADFB7C8964</designId>
+</OSDM_Design>

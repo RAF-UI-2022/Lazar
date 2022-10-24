@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A0E89014-6075-4902-6DF9-D1F6B41975EE" containerWithKeyObject="EA06A239-8448-A336-DDC7-1BC0430929A6" localFKIndex="50D361DA-94E3-792E-31EB-7ABDF921581E" name="Kadeti_Igraci_omladinske_skole_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:22:50 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<referredTableLongName>Igraci_omladinske_skole</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F418D11-27E0-B0FB-A27E-7A429F1D84B4</referredTableID>
+<keyObject>64CC56B3-8A98-0C1F-99A9-2A702E251CCE</keyObject>
+<referredKeyID>64CC56B3-8A98-0C1F-99A9-2A702E251CCE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ios_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8DFCD3A6-E149-80EB-7C8F-EDAF24594F97" containerWithKeyObject="D8A9273F-409F-9E81-394A-7F36B704F57C" localFKIndex="3D3925D1-356E-7EFA-F469-1FB6654DDBFB" name="Rezerve_Roster_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:15:34 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<referredTableLongName>Roster</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A37FCF75-1CC3-11EE-6122-3A4DB595B68A</referredTableID>
+<keyObject>52105770-2337-470C-805D-046C5CD3166B</keyObject>
+<referredKeyID>52105770-2337-470C-805D-046C5CD3166B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>roster_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

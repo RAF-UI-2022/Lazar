@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA0DA1CF-902F-8D6D-975B-3C73201EA9EA" name="Treneri_omladinske_skole">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:17:37 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tos_id" id="8443125E-03C7-AD9E-0965-D026EAE1E5AA">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:18:36 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Omladinska_skola_omladinska_skola_id" id="C0555269-9666-1205-13EE-911EAC79E5A0">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:26:00 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45628257-E9A2-6B55-795C-DF3B685A2322" referredColumn="F504175F-E27B-9035-65B0-2A0DB9A8F77A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14113BE9-4E2E-8320-9CCB-FDA2DF0C27B5" name="Treneri_omladinske_skole_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:18:36 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8443125E-03C7-AD9E-0965-D026EAE1E5AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA7D734B-B874-4830-67CB-DDF8AF0C5CE6" name="Treneri_omladinske_skole_Omladinska_skola_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:26:00 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0555269-9666-1205-13EE-911EAC79E5A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

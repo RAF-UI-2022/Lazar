@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EBF8CCE-992A-004C-01E8-D020979B9F5F" name="Restoran">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:32:06 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="restoran_id" id="F1CBADCA-A8E9-BEA6-3CC4-001CA081023D">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:32:47 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stadion_stadion_id" id="1A6E1C16-3E3B-F92E-B6AE-74181872CA71">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:15:06 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A666B5E0-C789-7051-BA82-1B2EAE42ABF4" referredColumn="593E59FD-7BD9-41C8-31D2-E83B45346AC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31BD2484-B85F-2542-AC16-C6E13443E37E" name="Restoran_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 18:32:47 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1CBADCA-A8E9-BEA6-3CC4-001CA081023D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB4F7A0D-EEC2-6E39-624D-F7D70A35D012" name="Restoran_Stadion_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:15:06 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A6E1C16-3E3B-F92E-B6AE-74181872CA71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

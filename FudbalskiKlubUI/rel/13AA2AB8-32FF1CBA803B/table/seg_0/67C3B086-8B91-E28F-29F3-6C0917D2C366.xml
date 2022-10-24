@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67C3B086-8B91-E28F-29F3-6C0917D2C366" name="Juniori">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:25:07 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="juniori_id" id="C1C19B06-1B5B-CAE0-514E-867146066153">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:25:36 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Igraci_omladinske_skole_ios_id" id="1DA689CC-271A-5808-5B8C-B1528A2572EC">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:25:50 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D5D3DEA-17DE-1869-B824-75DD19FCF6FB" referredColumn="8382EEA3-A0C9-704E-B70F-4B926045FF07"/>
+</associations>
+</Column>
+<Column name="broj_igraca" id="85D0961A-4F01-DDA8-8867-D9352ACCBAD5">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:27:24 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF29C3C0-0B3F-BD44-566A-A9F12FC313F2" name="Juniori_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:25:36 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1C19B06-1B5B-CAE0-514E-867146066153"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="741A596C-3ADD-9A3F-D27F-E0A7061EB2CF" name="Juniori_Igraci_omladinske_skole_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-10-24 19:25:50 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DA689CC-271A-5808-5B8C-B1528A2572EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
