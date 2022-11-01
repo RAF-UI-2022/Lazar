@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8943DE82-0B95-D05D-3564-AE950D065054" containerWithKeyObject="35F6D639-C733-EF2B-242E-248A6F34D098" localFKIndex="AA3AEBEA-880F-B3F0-CCDB-A6DBA66F1C27" name="Atletska_staza_Dodatni_objekti_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-01 18:57:06 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<referredTableLongName>Dodatni_objekti</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>64650B01-63EE-160A-5EA8-8B1D409AA2FC</referredTableID>
+<keyObject>515DD2CB-721F-777C-D764-9B5885704D7E</keyObject>
+<referredKeyID>515DD2CB-721F-777C-D764-9B5885704D7E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Dodatni_objekti_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

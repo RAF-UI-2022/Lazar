@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8A9273F-409F-9E81-394A-7F36B704F57C" name="Rezerve">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="426B6B4F-CC90-6F59-128E-DCBE7FA04C37" name="Pozicija">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 18:35:15 UTC</createdTime>
+<createdTime>2022-11-01 19:02:51 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
-<ordsAlias>table_14</ordsAlias>
+<ordsAlias>table_24</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="rezerve_id" id="3A77C0A9-0581-67EC-05BB-F2D10D80FB92">
+<Column name="Pozicija_id" id="E7C855E4-0334-7E7A-45DB-AACF1CA3DEE2">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 18:36:22 UTC</createdTime>
+<createdTime>2022-11-01 19:03:00 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Roster_roster_id" id="60817B65-9FB7-E50B-BC6A-8D41B1DDC979">
+<Column name="Igrac_Igrac_id" id="C9059223-E782-4ADD-9E33-07E0EBB023BD">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:15:34 UTC</createdTime>
+<createdTime>2022-11-01 19:05:01 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,30 +29,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="8DFCD3A6-E149-80EB-7C8F-EDAF24594F97" referredColumn="0B451D72-3874-ACA7-EEAF-80F0D5EEAA4A"/>
+<colAssociation fkAssociation="24F01F82-CCFB-76DD-3C48-CF995A8B2880" referredColumn="D634B307-5471-8F7D-0ABC-7FD9B6DAD07C"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A3A3748C-C597-F96F-5493-70E239C046B3" name="Rezerve_PK">
+<ind_PK_UK id="536AAFAC-C265-9CDB-06CB-229CE2E85BAC" name="Pozicija_PK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 18:36:34 UTC</createdTime>
+<createdTime>2022-11-01 19:03:13 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3A77C0A9-0581-67EC-05BB-F2D10D80FB92"/>
+<colUsage columnID="E7C855E4-0334-7E7A-45DB-AACF1CA3DEE2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3D3925D1-356E-7EFA-F469-1FB6654DDBFB" name="Rezerve_Roster_FK">
+<ind_PK_UK id="4F4ACC21-ADA3-1C9B-5A07-E6227D072D49" name="Pozicija_Igrac_FK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:15:34 UTC</createdTime>
+<createdTime>2022-11-01 19:05:01 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="60817B65-9FB7-E50B-BC6A-8D41B1DDC979"/>
+<colUsage columnID="C9059223-E782-4ADD-9E33-07E0EBB023BD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

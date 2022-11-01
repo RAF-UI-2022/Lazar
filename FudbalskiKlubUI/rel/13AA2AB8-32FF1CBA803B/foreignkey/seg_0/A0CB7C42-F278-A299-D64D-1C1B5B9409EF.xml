@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A0CB7C42-F278-A299-D64D-1C1B5B9409EF" containerWithKeyObject="18DE1509-79AA-0688-B86B-13F1BD0DCB42" localFKIndex="46A3395E-2580-D002-BA9C-0CA39B0BC28B" name="Senior_Uloga_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-01 19:02:36 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<referredTableLongName>Uloga</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D83E4BDD-50A0-92DA-DD83-A21EE87EAE38</referredTableID>
+<keyObject>8476EB0D-C633-E44C-85B4-BA5DD2CE93B9</keyObject>
+<referredKeyID>8476EB0D-C633-E44C-85B4-BA5DD2CE93B9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Uloga_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

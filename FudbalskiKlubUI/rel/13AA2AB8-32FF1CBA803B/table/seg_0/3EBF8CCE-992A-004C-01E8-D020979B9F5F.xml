@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Stadion_stadion_id" id="1A6E1C16-3E3B-F92E-B6AE-74181872CA71">
+<Column name="Dodatni_objekti_Dodatni_objekti_id" id="C35A30EB-7A3A-71FC-6B15-E0D51C6F1C46">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:15:06 UTC</createdTime>
+<createdTime>2022-11-01 18:57:03 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,7 +29,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="A666B5E0-C789-7051-BA82-1B2EAE42ABF4" referredColumn="593E59FD-7BD9-41C8-31D2-E83B45346AC1"/>
+<colAssociation fkAssociation="07A1CC5B-D427-A016-20C1-E59828EEC94E" referredColumn="C7106373-1BD7-C2CA-E134-7EA854FCAF07"/>
 </associations>
 </Column>
 </columns>
@@ -45,14 +45,14 @@
 <colUsage columnID="F1CBADCA-A8E9-BEA6-3CC4-001CA081023D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FB4F7A0D-EEC2-6E39-624D-F7D70A35D012" name="Restoran_Stadion_FK">
+<ind_PK_UK id="35D646AD-8B7E-BA30-6910-4796289FCA38" name="Restoran_Dodatni_objekti_FK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:15:06 UTC</createdTime>
+<createdTime>2022-11-01 18:57:03 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1A6E1C16-3E3B-F92E-B6AE-74181872CA71"/>
+<colUsage columnID="C35A30EB-7A3A-71FC-6B15-E0D51C6F1C46"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

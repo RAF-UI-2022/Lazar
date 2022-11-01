@@ -50,8 +50,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stadion_stadion_id" id="E5071EE4-7403-63BB-ACB5-01E2777D3B74">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-01 18:56:56 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1C284410-05BE-89FE-8CFD-EE0586AE6B0A" referredColumn="EA637CEE-D0F3-BD1B-32DA-1105D6204082"/>
+<colAssociation fkAssociation="C04BAD97-A79A-F260-7498-CC42AA3587E7" referredColumn="593E59FD-7BD9-41C8-31D2-E83B45346AC1"/>
 </associations>
 </Column>
 </columns>
@@ -67,14 +78,14 @@
 <colUsage columnID="6158405A-3453-BBB9-8007-4178CC882A4B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B197A13B-D828-B29E-6E7E-212595A05812" name="Fudbalski_teren_Igraliste_FK">
+<ind_PK_UK id="401A9360-0BAE-26F6-5177-6FF2B32EE505" name="Fudbalski_teren_Stadion_FK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:15:18 UTC</createdTime>
+<createdTime>2022-11-01 18:56:56 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="95D007AE-2E2A-8982-6F54-C81F60814E8C"/>
+<colUsage columnID="E5071EE4-7403-63BB-ACB5-01E2777D3B74"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

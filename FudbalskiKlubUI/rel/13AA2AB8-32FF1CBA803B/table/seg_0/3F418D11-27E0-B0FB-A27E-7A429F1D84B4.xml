@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F418D11-27E0-B0FB-A27E-7A429F1D84B4" name="Igraci_omladinske_skole">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F418D11-27E0-B0FB-A27E-7A429F1D84B4" name="Roster_omladinske_skole">
 <createdBy>Laki</createdBy>
 <createdTime>2022-10-24 19:19:04 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ios_id" id="8382EEA3-A0C9-704E-B70F-4B926045FF07">
+<Column name="roster_os_id" id="8382EEA3-A0C9-704E-B70F-4B926045FF07">
 <createdBy>Laki</createdBy>
 <createdTime>2022-10-24 19:19:42 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>

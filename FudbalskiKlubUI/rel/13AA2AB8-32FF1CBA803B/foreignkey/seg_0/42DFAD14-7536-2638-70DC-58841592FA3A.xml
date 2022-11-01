@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EB7DB249-DD24-5D74-CD45-89A13737BC3C" containerWithKeyObject="FC520C91-FB64-3B07-C4AC-4E02ABEDF65F" localFKIndex="C614D807-4B5F-6697-AD4F-92B55921B639" name="Muzej_Stadion_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="42DFAD14-7536-2638-70DC-58841592FA3A" containerWithKeyObject="CE35DEAE-AF0E-3973-3D19-CDA383E63BF8" localFKIndex="C5AABF94-C771-781F-DA6E-25B517D5E959" name="Tribine_Stadion_FK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:14:56 UTC</createdTime>
+<createdTime>2022-11-01 18:56:53 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <referredTableLongName>Stadion</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

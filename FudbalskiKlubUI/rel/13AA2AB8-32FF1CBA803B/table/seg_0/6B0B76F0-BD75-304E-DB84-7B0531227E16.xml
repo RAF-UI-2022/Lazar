@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Igraci_omladinske_skole_ios_id" id="7D4B8B47-C7AA-D115-A34D-CB0DBA969468">
+<Column name="Uloga_Uloga_id" id="18E3927E-5DEE-0C7A-699C-DA833141B829">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:26:15 UTC</createdTime>
+<createdTime>2022-11-01 19:02:45 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,19 +29,8 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D8609476-1027-5F95-0418-DAE94BB9670C" referredColumn="8382EEA3-A0C9-704E-B70F-4B926045FF07"/>
+<colAssociation fkAssociation="DB389D94-AF6D-54C4-BD3B-58106CBC7612" referredColumn="A4B88105-24B9-FE4D-5F3A-6E1FB672E07F"/>
 </associations>
-</Column>
-<Column name="broj_igraca" id="B8EC164F-3B75-DFBE-4E84-221E67B1620D">
-<createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:27:35 UTC</createdTime>
-<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -56,14 +45,14 @@
 <colUsage columnID="79E4E968-01FA-CAC7-291D-F50CA87CB2AF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="582811DC-C30F-D008-CF00-FF4BC00AB04B" name="Pioniri_Igraci_omladinske_skole_FK">
+<ind_PK_UK id="35FB073C-7C2F-7106-5342-0DA4CAB97E69" name="Pioniri_Uloga_FK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:26:15 UTC</createdTime>
+<createdTime>2022-11-01 19:02:45 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7D4B8B47-C7AA-D115-A34D-CB0DBA969468"/>
+<colUsage columnID="18E3927E-5DEE-0C7A-699C-DA833141B829"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

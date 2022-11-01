@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AF4E9261-A763-8C46-52A5-D3B48AC64A98" containerWithKeyObject="D83E4BDD-50A0-92DA-DD83-A21EE87EAE38" localFKIndex="6C2ABCB4-6E9A-E722-E1DA-7187625FC22C" name="Uloga_Igrac_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-01 19:02:29 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<referredTableLongName>Igrac</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CAC0111A-B48D-605E-0092-F2FD85D15C65</referredTableID>
+<keyObject>4EE1BE45-525E-B06C-969B-713A301AD8C9</keyObject>
+<referredKeyID>4EE1BE45-525E-B06C-969B-713A301AD8C9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Igrac_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

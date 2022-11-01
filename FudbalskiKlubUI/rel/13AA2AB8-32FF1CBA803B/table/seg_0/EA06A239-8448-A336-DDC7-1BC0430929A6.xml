@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Igraci_omladinske_skole_ios_id" id="B92AB149-09F5-AD6F-C532-57080E51BE59">
+<Column name="Uloga_Uloga_id" id="0E9E48F7-FACE-6520-18D8-BD2D44DD58BF">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:22:50 UTC</createdTime>
+<createdTime>2022-11-01 19:02:42 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,25 +29,14 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="A0E89014-6075-4902-6DF9-D1F6B41975EE" referredColumn="8382EEA3-A0C9-704E-B70F-4B926045FF07"/>
+<colAssociation fkAssociation="A7B9BEC8-F303-F337-7C71-6C870ED39F27" referredColumn="A4B88105-24B9-FE4D-5F3A-6E1FB672E07F"/>
 </associations>
-</Column>
-<Column name="broj_igraca" id="93BBA464-706F-7A54-E955-D0E97B2581CC">
-<createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:27:10 UTC</createdTime>
-<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="8ACA60D4-8575-1C60-D879-8BDAE4FE38AF" name="Kadeti_PK">
+<ind_PK_UK id="14D25E83-D5A3-D1A6-459C-1A9A074600C8" name="Kadeti_PKv1">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:20:22 UTC</createdTime>
+<createdTime>2022-11-01 18:58:01 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -56,14 +45,14 @@
 <colUsage columnID="2229D62A-A79E-9267-97E5-A47BC71516EC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="50D361DA-94E3-792E-31EB-7ABDF921581E" name="Kadeti_Igraci_omladinske_skole_FK">
+<ind_PK_UK id="A4C80F79-A449-F945-8B2A-D3BEEACDA753" name="Kadeti_Uloga_FK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:22:50 UTC</createdTime>
+<createdTime>2022-11-01 19:02:42 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B92AB149-09F5-AD6F-C532-57080E51BE59"/>
+<colUsage columnID="0E9E48F7-FACE-6520-18D8-BD2D44DD58BF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

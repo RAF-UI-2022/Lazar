@@ -39,8 +39,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dodatni_objekti_Dodatni_objekti_id" id="78F6B77F-3DFE-47D0-224A-07F8F8930188">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-01 18:57:06 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="254C5332-9F1A-6444-193F-DE14FF891448" referredColumn="EA637CEE-D0F3-BD1B-32DA-1105D6204082"/>
+<colAssociation fkAssociation="8943DE82-0B95-D05D-3564-AE950D065054" referredColumn="C7106373-1BD7-C2CA-E134-7EA854FCAF07"/>
 </associations>
 </Column>
 </columns>
@@ -56,14 +67,14 @@
 <colUsage columnID="7EA80F20-A892-E122-B3BB-78FD4358BF13"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E700366F-EB62-B35E-80A8-D63BDCACC360" name="Atletska_staza_Igraliste_FK">
+<ind_PK_UK id="AA3AEBEA-880F-B3F0-CCDB-A6DBA66F1C27" name="Atletska_staza_Dodatni_objekti_FK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:15:22 UTC</createdTime>
+<createdTime>2022-11-01 18:57:06 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F8B6D4A9-5CE3-E631-2BF1-72DCC9DE26C1"/>
+<colUsage columnID="78F6B77F-3DFE-47D0-224A-07F8F8930188"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
