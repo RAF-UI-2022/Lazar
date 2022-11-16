@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DB389D94-AF6D-54C4-BD3B-58106CBC7612" containerWithKeyObject="6B0B76F0-BD75-304E-DB84-7B0531227E16" localFKIndex="35FB073C-7C2F-7106-5342-0DA4CAB97E69" name="Pioniri_Uloga_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="62F0BF7B-290C-EC1A-EB76-0F01BA98E4B0" containerWithKeyObject="9DCE9014-02C4-9721-F8A6-5C21A5BB6391" localFKIndex="5D6DD7A5-C2D5-2E75-55F7-AC608E33D86D" name="Tip_uloge_Uloga_FK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-11-01 19:02:45 UTC</createdTime>
+<createdTime>2022-11-16 11:35:35 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <referredTableLongName>Uloga</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

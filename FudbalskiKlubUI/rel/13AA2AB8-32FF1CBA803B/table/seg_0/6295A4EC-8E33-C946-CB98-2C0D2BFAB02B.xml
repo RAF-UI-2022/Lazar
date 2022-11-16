@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6295A4EC-8E33-C946-CB98-2C0D2BFAB02B" name="Omladinska_utakmica">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:42:15 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tip_omladinske_utakmice" id="46906BD6-A7A2-8CC5-206C-1B69ACAC0A7E">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:42:51 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip_utakmice_Tip_utakmice_id" id="8BF43CBE-DD09-DF6E-DDA1-FED7674FC148">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:44:03 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F9A3589-8C49-F2FF-F707-27AD34E49F09" referredColumn="1011988E-DF57-0C2B-177D-C91074D96845"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14BEEE45-8700-AEF8-A9A0-77650D929525" name="Omladinska_utakmica_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:42:51 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46906BD6-A7A2-8CC5-206C-1B69ACAC0A7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="832CE0CD-2834-D5E7-5BBA-71D66A56AB65" name="Omladinska_utakmica_Tip_utakmice_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:44:03 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BF43CBE-DD09-DF6E-DDA1-FED7674FC148"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

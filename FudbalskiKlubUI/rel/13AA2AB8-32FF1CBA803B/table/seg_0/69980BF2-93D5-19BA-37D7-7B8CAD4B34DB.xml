@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69980BF2-93D5-19BA-37D7-7B8CAD4B34DB" name="Gostujuci_tim">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:56:46 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_39</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Gostujuci_tim_id" id="A1500D48-3126-9C7B-B227-09DE5A56A461">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:57:12 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip_utakmice_Tip_utakmice_id" id="45F17459-0FCA-9574-ED2E-4C742881FF27">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:57:30 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0D30BE7-3C51-A31D-D88A-D269A8EC8FF3" referredColumn="1011988E-DF57-0C2B-177D-C91074D96845"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BF7464E-FDA7-E6BD-9F11-A0C9535747B5" name="Gostujuci_tim_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:57:12 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1500D48-3126-9C7B-B227-09DE5A56A461"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E38C9863-2871-DB2F-5109-C473CABB516C" name="Gostujuci_tim_Tip_utakmice_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:57:30 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45F17459-0FCA-9574-ED2E-4C742881FF27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

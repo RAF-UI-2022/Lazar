@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0ED4AA60-14D6-AF62-EDD3-0F065BCA8BC5" containerWithKeyObject="46D26EAE-08B7-55E1-B3AF-63714B89B213" localFKIndex="83F2D85B-9D72-005B-0010-668F2E3FAE64" name="Tip_tribine_Tribine_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:38:31 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<referredTableLongName>Tribine</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CE35DEAE-AF0E-3973-3D19-CDA383E63BF8</referredTableID>
+<keyObject>12C15F7E-87AF-C502-897A-6881A99B1D55</keyObject>
+<referredKeyID>12C15F7E-87AF-C502-897A-6881A99B1D55</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Tribine_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

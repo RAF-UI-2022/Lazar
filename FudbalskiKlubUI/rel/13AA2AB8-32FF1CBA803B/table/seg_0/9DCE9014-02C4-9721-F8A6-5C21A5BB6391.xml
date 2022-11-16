@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DCE9014-02C4-9721-F8A6-5C21A5BB6391" name="Tip_uloge">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:34:36 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_tipa_uloge" id="583147D3-32F7-F1D1-1FBE-CA238E9232E8">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:35:12 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Uloga_Uloga_id" id="0ACD8F5E-B289-18E2-4DE5-20F7C7310B01">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:35:35 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62F0BF7B-290C-EC1A-EB76-0F01BA98E4B0" referredColumn="A4B88105-24B9-FE4D-5F3A-6E1FB672E07F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8AAD9F2C-3E8A-F608-A49F-0DCB53851BEE" name="Tip_uloge_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:35:12 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="583147D3-32F7-F1D1-1FBE-CA238E9232E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D6DD7A5-C2D5-2E75-55F7-AC608E33D86D" name="Tip_uloge_Uloga_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:35:35 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ACD8F5E-B289-18E2-4DE5-20F7C7310B01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

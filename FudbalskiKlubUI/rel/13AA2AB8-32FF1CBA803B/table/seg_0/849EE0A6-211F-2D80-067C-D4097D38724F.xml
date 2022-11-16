@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="849EE0A6-211F-2D80-067C-D4097D38724F" name="Ulaznica">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:46:31 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ulaznica_id" id="4642D114-B6C8-272A-E901-8634A4ACFDCA">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:47:44 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Utakmica_utakmica_id" id="7533C240-CCAD-1591-7330-3713D48D8292">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:48:04 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43307F12-60D3-3D67-FB7F-DB8A0ED4E57D" referredColumn="B9C84642-E4C4-0585-D3DD-15F5A326BC57"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B75A396-3405-FC07-16B8-3E0CFEFC659A" name="Ulaznica_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:47:44 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4642D114-B6C8-272A-E901-8634A4ACFDCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3EB6B58-CCB4-7414-8555-3AACE314867E" name="Ulaznica_Utakmica_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:48:04 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7533C240-CCAD-1591-7330-3713D48D8292"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

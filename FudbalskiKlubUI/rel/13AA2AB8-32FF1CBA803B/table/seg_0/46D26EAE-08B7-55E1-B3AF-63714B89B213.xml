@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F418D11-27E0-B0FB-A27E-7A429F1D84B4" name="Roster_omladinske_skole">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46D26EAE-08B7-55E1-B3AF-63714B89B213" name="Tip_tribine">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:19:04 UTC</createdTime>
+<createdTime>2022-11-16 11:37:51 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
-<ordsAlias>table_19</ordsAlias>
+<ordsAlias>table_28</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="roster_os_id" id="8382EEA3-A0C9-704E-B70F-4B926045FF07">
+<Column name="Tip_tribine_id" id="38FB3FD8-6D4A-D892-018C-33E9AE684D2A">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:19:42 UTC</createdTime>
+<createdTime>2022-11-16 11:38:22 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Omladinska_skola_omladinska_skola_id" id="C0214D1D-68B9-D261-4B1C-5D9C722C4CF6">
+<Column name="Tribine_Tribine_id" id="2C24AF91-5F89-AAD4-128E-B51C0BF4196C">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:25:55 UTC</createdTime>
+<createdTime>2022-11-16 11:38:31 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,12 +29,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="04C1B6C4-DF3D-F8BB-5F7E-08894BD75B4C" referredColumn="F504175F-E27B-9035-65B0-2A0DB9A8F77A"/>
+<colAssociation fkAssociation="0ED4AA60-14D6-AF62-EDD3-0F065BCA8BC5" referredColumn="D5D7BC65-BBE4-211A-BC14-0DE688437432"/>
 </associations>
 </Column>
-<Column name="Omladinska_utakmica_Tip_omladinske_utakmice" id="B450829A-11E3-62D0-776F-52AF274EF087">
+<Column name="Ulaznica_Ulaznica_id" id="5A171359-77A3-C84A-3903-651736F67A3D">
 <createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:44:11 UTC</createdTime>
+<createdTime>2022-11-16 11:56:23 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,40 +43,40 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="2BAAFE14-DF42-C7AF-1F51-44E488EED503" referredColumn="46906BD6-A7A2-8CC5-206C-1B69ACAC0A7E"/>
+<colAssociation fkAssociation="43EDFA33-CCFB-7EF9-F480-D9EA092A0A3D" referredColumn="4642D114-B6C8-272A-E901-8634A4ACFDCA"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="64CC56B3-8A98-0C1F-99A9-2A702E251CCE" name="Igraci_omladinske_skole_PK">
+<ind_PK_UK id="FD0EA879-9206-D748-5B6A-644D9181E259" name="Tip_tribine_PK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:19:48 UTC</createdTime>
+<createdTime>2022-11-16 11:38:22 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8382EEA3-A0C9-704E-B70F-4B926045FF07"/>
+<colUsage columnID="38FB3FD8-6D4A-D892-018C-33E9AE684D2A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="57FE800D-2B61-B9AB-F01B-7E2D2BDCF681" name="Igraci_omladinske_skole_Omladinska_skola_FK">
+<ind_PK_UK id="83F2D85B-9D72-005B-0010-668F2E3FAE64" name="Tip_tribine_Tribine_FK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-10-24 19:25:55 UTC</createdTime>
+<createdTime>2022-11-16 11:38:31 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C0214D1D-68B9-D261-4B1C-5D9C722C4CF6"/>
+<colUsage columnID="2C24AF91-5F89-AAD4-128E-B51C0BF4196C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EC9FE3AE-6499-A264-0371-8D0AD9A5DF12" name="Roster_omladinske_skole_Omladinska_utakmica_FK">
+<ind_PK_UK id="08BA6C2E-4808-AEBC-0C72-014A8A65CA3B" name="Tip_tribine_Ulaznica_FK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:44:11 UTC</createdTime>
+<createdTime>2022-11-16 11:56:23 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B450829A-11E3-62D0-776F-52AF274EF087"/>
+<colUsage columnID="5A171359-77A3-C84A-3903-651736F67A3D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

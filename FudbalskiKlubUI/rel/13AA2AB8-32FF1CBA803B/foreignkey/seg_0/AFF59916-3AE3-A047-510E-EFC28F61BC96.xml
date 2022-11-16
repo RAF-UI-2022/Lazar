@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AFF59916-3AE3-A047-510E-EFC28F61BC96" containerWithKeyObject="A1096D2B-A400-981D-09A5-E1207454F9D7" localFKIndex="E5FBE08B-AA5E-1BB1-318F-106660EAE536" name="Tip_popusta_Popust_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:56:05 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<referredTableLongName>Popust</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4FC6F726-6720-349D-8243-7EB3CA4A9129</referredTableID>
+<keyObject>64544AFD-48E2-C6B4-12E1-48938A2E46A1</keyObject>
+<referredKeyID>64544AFD-48E2-C6B4-12E1-48938A2E46A1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>popust_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

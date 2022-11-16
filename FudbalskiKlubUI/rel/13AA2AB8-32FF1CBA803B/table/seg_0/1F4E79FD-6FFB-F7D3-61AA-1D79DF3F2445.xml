@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F4E79FD-6FFB-F7D3-61AA-1D79DF3F2445" name="Analiticar">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 12:05:58 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_45</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ime" id="DBB97B96-1E3B-25A2-4086-DB8EEBD04438">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 12:07:02 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="16F4599A-73FC-E4C5-A896-312EFB1F3550">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 12:07:02 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Analiticar_id" id="02D2E964-D08A-9F53-5A56-16ED194B720E">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 12:07:02 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staff_staff_id" id="E4FDB736-0B59-C665-4EB7-C5D6ACE4304F">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 12:08:29 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61BA9EE7-E315-AE7E-0485-46A4C8759F79" referredColumn="1634DF85-9012-F6B0-CEDA-3C55B4BD7201"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F1D28A7-85A3-DE44-BA04-5B4498FFC331" name="Analiticar_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 12:07:02 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02D2E964-D08A-9F53-5A56-16ED194B720E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="296DEB85-A39B-ABFA-2FB5-91B39346DE02" name="Analiticar_Staff_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 12:08:29 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4FDB736-0B59-C665-4EB7-C5D6ACE4304F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

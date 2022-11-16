@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="611B63A3-8C3C-1193-2FE2-044F9CE95962" name="Tip_analiticara">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 12:07:25 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_46</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tip_analiticara_id" id="337E4952-7868-F6DE-4991-505FBE43A4F9">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 12:07:59 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Analiticar_Analiticar_id" id="6CAD5C32-9F16-E5F8-91E3-995E6EC83D3D">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 12:08:34 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24CB1AD6-BF67-3EBA-49D0-021AA9EBE840" referredColumn="02D2E964-D08A-9F53-5A56-16ED194B720E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8C6F2EB-393D-62FC-B7E1-037DB8E0AF7F" name="Tip_analiticara_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 12:08:14 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="337E4952-7868-F6DE-4991-505FBE43A4F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="213D67ED-75FC-D925-4BFE-AD05E2F19D53" name="Tip_analiticara_Analiticar_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 12:08:34 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CAD5C32-9F16-E5F8-91E3-995E6EC83D3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

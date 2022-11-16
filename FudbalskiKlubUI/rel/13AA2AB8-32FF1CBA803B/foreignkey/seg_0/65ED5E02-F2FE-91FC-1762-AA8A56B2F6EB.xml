@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="65ED5E02-F2FE-91FC-1762-AA8A56B2F6EB" containerWithKeyObject="A37FCF75-1CC3-11EE-6122-3A4DB595B68A" localFKIndex="74CE73FD-8B4A-FB51-2099-7CD52B0199E8" name="Roster_prvog_tima_Tip_seniorske_utakmice_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:44:18 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<referredTableLongName>Seniorska_utakmica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3B2947A4-82ED-8F7B-3E92-06126074819F</referredTableID>
+<keyObject>DAF5BFC0-E42E-EAA2-DDEE-C30D10D5D934</keyObject>
+<referredKeyID>DAF5BFC0-E42E-EAA2-DDEE-C30D10D5D934</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Tip_seniorske_utakmice</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

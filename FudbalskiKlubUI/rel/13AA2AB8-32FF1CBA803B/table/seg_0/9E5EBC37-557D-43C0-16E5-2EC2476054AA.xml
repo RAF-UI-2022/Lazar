@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E5EBC37-557D-43C0-16E5-2EC2476054AA" name="Utakmica">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:39:07 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="utakmica_id" id="B9C84642-E4C4-0585-D3DD-15F5A326BC57">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:40:10 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_odigravanja" id="1CD182FE-5679-CD80-F150-703F1AF6561B">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:40:10 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61883274-5C53-EA9C-23E8-9BDEEED6D7EC" name="Utakmica_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-11-16 11:40:10 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9C84642-E4C4-0585-D3DD-15F5A326BC57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
