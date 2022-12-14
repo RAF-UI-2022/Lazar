@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A111DC88-9A07-7704-1831-6B4856271695" name="Tip_takmicenja">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD770F56-8EF4-A44E-5D4C-D35590B1B4C5" name="Tip_ugovorne_nadoknade">
 <createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:53:52 UTC</createdTime>
+<createdTime>2022-12-14 14:56:26 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
-<ordsAlias>table_38</ordsAlias>
+<ordsAlias>table_47</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="tip_takmicenja_id" id="167CFDD8-AE93-17B8-4679-A78DA155CF61">
+<Column name="Id_ugovorne_nadoknade" id="8FA14A57-DBA0-D563-74E7-10EAD542478D">
 <createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:54:17 UTC</createdTime>
+<createdTime>2022-12-14 14:57:01 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,15 +20,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="29ABDB22-F9AB-8CB6-D0D7-87D0D8D6EEC6" name="Tip_takmicenja_PK">
+<ind_PK_UK id="A88B27D4-3F9B-1974-0CE7-63FD3BBBE30A" name="Tip_ugovorne_nadoknade_PK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:54:17 UTC</createdTime>
+<createdTime>2022-12-14 14:57:01 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="167CFDD8-AE93-17B8-4679-A78DA155CF61"/>
+<colUsage columnID="8FA14A57-DBA0-D563-74E7-10EAD542478D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

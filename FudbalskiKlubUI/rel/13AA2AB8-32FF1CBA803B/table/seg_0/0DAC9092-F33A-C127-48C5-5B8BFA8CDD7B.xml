@@ -29,6 +29,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Ugovor_Id_ugovora" id="86000270-5D7C-7693-C651-DB033066436D">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-14 14:47:23 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97A179FD-A69D-7AEB-4AF5-A44D6B5C75D2" referredColumn="62FC7E0F-2BDC-5377-515F-2F11F6FF978F"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="9E1D0767-6545-BE55-1698-8FC4027DE5B7" name="Fudbalski_klub_PK">
@@ -40,6 +54,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EEF7532A-0BDA-1444-169B-1544193BF7A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8CDEFA2-6A03-6FF2-2F4F-A8C65EF2F0A6" name="Fudbalski_klub_Ugovor_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-14 14:47:23 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86000270-5D7C-7693-C651-DB033066436D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

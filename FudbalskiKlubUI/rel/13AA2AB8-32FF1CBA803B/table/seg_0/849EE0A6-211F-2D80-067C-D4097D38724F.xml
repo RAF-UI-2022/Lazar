@@ -32,6 +32,31 @@
 <colAssociation fkAssociation="43307F12-60D3-3D67-FB7F-DB8A0ED4E57D" referredColumn="B9C84642-E4C4-0585-D3DD-15F5A326BC57"/>
 </associations>
 </Column>
+<Column name="cena" id="D69E4B02-7926-D8DC-C373-FC123ADCFDD0">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-14 13:51:18 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip_ulaznice_Id_tipa_ulaznice" id="E0DD5D96-923F-CEEB-5F14-AE0A375ED3C2">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-14 14:58:37 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E917F7D-61C9-635E-7A8F-6D957EA9ED8B" referredColumn="086DFF87-399B-01CA-4348-C649C879F625"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1B75A396-3405-FC07-16B8-3E0CFEFC659A" name="Ulaznica_PK">
@@ -53,6 +78,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7533C240-CCAD-1591-7330-3713D48D8292"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B329D144-CFF9-F2CA-4582-F66DB59E1AB3" name="Ulaznica_Tip_ulaznice_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-14 14:58:37 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0DD5D96-923F-CEEB-5F14-AE0A375ED3C2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -32,6 +32,20 @@
 <colAssociation fkAssociation="AF4E9261-A763-8C46-52A5-D3B48AC64A98" referredColumn="D634B307-5471-8F7D-0ABC-7FD9B6DAD07C"/>
 </associations>
 </Column>
+<Column name="Zaposleni_Id_zaposlenog" id="11FBED3D-9BE1-2792-DADE-876898276346">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-14 14:31:10 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BBB28F3-509C-FB0C-D283-07151D9329CE" referredColumn="91294F72-D646-9837-28DE-42A5C6DDE4B7"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8476EB0D-C633-E44C-85B4-BA5DD2CE93B9" name="Uloga_PK">
@@ -53,6 +67,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F26A2E0F-73B8-9B62-387E-E817D6E4E580"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61F51B1D-5954-2648-202F-A34E78059777" name="Uloga_Zaposleni_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-14 14:31:10 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11FBED3D-9BE1-2792-DADE-876898276346"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

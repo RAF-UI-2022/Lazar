@@ -39,8 +39,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ulaznica_Ulaznica_id" id="6BD49BCE-A623-4F52-7F7F-028629808D2B">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-14 13:51:59 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4FAF3654-DAA6-B20E-4BAB-A3FD6359CF7D" referredColumn="4AB61D34-1A07-3BC4-5E01-589B89B1F051"/>
+<colAssociation fkAssociation="912DF899-C971-CFA6-B2A3-34B6622E7D0B" referredColumn="4642D114-B6C8-272A-E901-8634A4ACFDCA"/>
 </associations>
 </Column>
 </columns>
@@ -56,14 +67,14 @@
 <colUsage columnID="D2D9D95B-ECB7-5609-C735-4D05023959EB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4CEDB35B-533B-E9F3-27C6-34809CDD3F82" name="Popust_Cena_FK">
+<ind_PK_UK id="0F92ADFC-D832-DC84-27E9-0D86028336D9" name="Popust_Ulaznica_FK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:56:01 UTC</createdTime>
+<createdTime>2022-12-14 13:51:59 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A840A1A5-82FE-EDB6-6497-1F0208C1E280"/>
+<colUsage columnID="6BD49BCE-A623-4F52-7F7F-028629808D2B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

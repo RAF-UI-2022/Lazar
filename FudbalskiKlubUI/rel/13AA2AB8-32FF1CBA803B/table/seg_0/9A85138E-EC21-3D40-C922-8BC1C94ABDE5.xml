@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BECA01D3-D43C-2A57-AA5F-5F934A7F4CB8" name="Takmicenje">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A85138E-EC21-3D40-C922-8BC1C94ABDE5" name="Zaposleni">
 <createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:53:18 UTC</createdTime>
+<createdTime>2022-12-14 13:52:29 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <ordsAlias>table_37</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="takmicenje_id" id="EC62E143-6FA5-6633-6E39-7885C749EF71">
+<Column name="Id_zaposlenog" id="91294F72-D646-9837-28DE-42A5C6DDE4B7">
 <createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:53:43 UTC</createdTime>
+<createdTime>2022-12-14 13:53:21 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,31 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Utakmica_utakmica_id" id="1C0FC393-AE9D-8ED3-824E-48F0C5729B40">
+<Column name="Ime" id="8A7B226F-AC1E-4FDD-D385-4D12C9BFE4DC">
 <createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:55:18 UTC</createdTime>
+<createdTime>2022-12-14 13:53:21 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="7171AA07-7009-1593-C116-AEAF683596D3">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-14 13:53:21 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staff_staff_id" id="48E42C00-A629-79F0-B830-FCE7703CAD1A">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-14 13:56:32 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,54 +51,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="01AE914A-9817-9649-3BC8-147E64BB9272" referredColumn="B9C84642-E4C4-0585-D3DD-15F5A326BC57"/>
-</associations>
-</Column>
-<Column name="Tip_takmicenja_tip_takmicenja_id" id="AD99933B-1E66-CBF4-A0D9-89C48716C27E">
-<createdBy>Laki</createdBy>
-<createdTime>2022-12-14 14:58:49 UTC</createdTime>
-<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="D7A2C674-1913-71A5-8D72-670AB5EEBCB4" referredColumn="167CFDD8-AE93-17B8-4679-A78DA155CF61"/>
+<colAssociation fkAssociation="B16CCE0C-B607-81DF-AD12-72FC740958C8" referredColumn="1634DF85-9012-F6B0-CEDA-3C55B4BD7201"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="307A049D-3A8B-C9A4-A745-0E4AAD3E41C5" name="Takmicenje_PK">
+<ind_PK_UK id="26890D60-47E6-B5AE-02B6-9158DAA59E61" name="Zaposleni_PK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:53:43 UTC</createdTime>
+<createdTime>2022-12-14 13:53:21 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EC62E143-6FA5-6633-6E39-7885C749EF71"/>
+<colUsage columnID="91294F72-D646-9837-28DE-42A5C6DDE4B7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7E757911-D528-023A-ED44-589BC52F8F90" name="Takmicenje_Utakmica_FK">
+<ind_PK_UK id="B5470F53-AF8C-80CF-28C8-6781FD0A395C" name="Zaposleni_Staff_FK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:55:18 UTC</createdTime>
+<createdTime>2022-12-14 13:56:32 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1C0FC393-AE9D-8ED3-824E-48F0C5729B40"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="75E3BFFD-B69E-89E6-30F0-14F2EC6A6468" name="Takmicenje_Tip_takmicenja_FK">
-<createdBy>Laki</createdBy>
-<createdTime>2022-12-14 14:58:49 UTC</createdTime>
-<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="AD99933B-1E66-CBF4-A0D9-89C48716C27E"/>
+<colUsage columnID="48E42C00-A629-79F0-B830-FCE7703CAD1A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

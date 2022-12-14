@@ -18,20 +18,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Utakmica_utakmica_id" id="5496969D-9D61-E2A8-2F58-1E7719E3DB50">
-<createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:43:58 UTC</createdTime>
-<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="37070E0E-1182-A100-0029-72BA233DA145" referredColumn="B9C84642-E4C4-0585-D3DD-15F5A326BC57"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="0C5019F7-99FA-4928-896E-16DED7E44E89" name="Tip_utakmice_PK">
@@ -43,16 +29,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1011988E-DF57-0C2B-177D-C91074D96845"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="87039C40-51E9-612E-F01A-7023D7D62104" name="Tip_utakmice_Utakmica_FK">
-<createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:43:58 UTC</createdTime>
-<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="5496969D-9D61-E2A8-2F58-1E7719E3DB50"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
