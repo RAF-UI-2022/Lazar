@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BA698AC9-33C4-F7F3-B55B-B56D2CAEECEC" containerWithKeyObject="A2E0F31E-F692-4C1E-40ED-ECA67D48ACD6" localFKIndex="73D9DED6-DCA7-F28F-A614-FB4DDE267359" name="Nagradni_fond_Takmicenje_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-21 17:14:15 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<referredTableLongName>Takmicenje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BECA01D3-D43C-2A57-AA5F-5F934A7F4CB8</referredTableID>
+<keyObject>307A049D-3A8B-C9A4-A745-0E4AAD3E41C5</keyObject>
+<referredKeyID>307A049D-3A8B-C9A4-A745-0E4AAD3E41C5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>takmicenje_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

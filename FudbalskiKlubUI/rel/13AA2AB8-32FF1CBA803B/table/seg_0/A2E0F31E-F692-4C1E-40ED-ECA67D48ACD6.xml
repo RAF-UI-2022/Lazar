@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2E0F31E-F692-4C1E-40ED-ECA67D48ACD6" name="Nagradni_fond">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-21 17:13:00 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_48</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_nagrdanog_fonda" id="9A8F8805-7363-EBDD-8F6F-DFFB2148F48C">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-21 17:14:02 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Iznos_nagradnog_fonda" id="0B32BA9E-BFA0-E4CC-959B-1B1A2149BA8A">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-21 17:14:02 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Takmicenje_takmicenje_id" id="B3813CB4-452C-97FB-E1B0-095B756BD7E1">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-21 17:14:15 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA698AC9-33C4-F7F3-B55B-B56D2CAEECEC" referredColumn="EC62E143-6FA5-6633-6E39-7885C749EF71"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC790F71-DAA8-9B25-3A5E-52C21A54B2B5" name="Nagradni_fond_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-21 17:14:02 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A8F8805-7363-EBDD-8F6F-DFFB2148F48C"/>
+<colUsage columnID="0B32BA9E-BFA0-E4CC-959B-1B1A2149BA8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73D9DED6-DCA7-F28F-A614-FB4DDE267359" name="Nagradni_fond_Takmicenje_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-21 17:14:15 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3813CB4-452C-97FB-E1B0-095B756BD7E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

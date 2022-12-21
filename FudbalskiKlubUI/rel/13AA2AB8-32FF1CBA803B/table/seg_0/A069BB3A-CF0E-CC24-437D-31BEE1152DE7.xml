@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A069BB3A-CF0E-CC24-437D-31BEE1152DE7" name="Tip_organizacionog_tima">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-21 17:07:01 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_46</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_tipa_org_tima" id="1465D461-14E1-2D67-78A5-05DFA1C57A6B">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-21 17:07:54 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Organizacioni_tim_id_organizacionog_tima" id="712DCFAD-D436-BE95-2C6B-1328777EA2DA">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-21 17:10:14 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C198F36E-836D-48B8-C487-751C48B2EFF6" referredColumn="B2AA1916-6BBE-0DE0-8B01-FE35B1AC80F1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DE6ECA0-08D4-A5A3-97A1-6F970E4F270D" name="Tip_organizacionog_tima_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-21 17:07:54 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1465D461-14E1-2D67-78A5-05DFA1C57A6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F510BDD9-15B1-86DD-831C-07A88250D3A8" name="Tip_organizacionog_tima_Organizacioni_tim_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2022-12-21 17:10:14 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="712DCFAD-D436-BE95-2C6B-1328777EA2DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
