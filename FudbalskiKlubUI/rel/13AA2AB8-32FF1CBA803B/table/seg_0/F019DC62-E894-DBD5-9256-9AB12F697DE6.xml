@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F019DC62-E894-DBD5-9256-9AB12F697DE6" name="Prodavac">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 15:12:03 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_59</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ime" id="334CCB8E-895C-1672-08C9-132E3D02DE69">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 15:12:56 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="F1038706-AA2B-8079-DC75-D92108C46015">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 15:12:56 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_prodavca" id="31EAD65A-A3E8-C2A2-1CE1-1CDAFDE250C0">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 15:12:56 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prodajno_mesto_Id_prodajnog mesta" id="F280E433-75A6-DADA-F854-F0E2F7B259B1">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 15:13:27 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89902F4E-630C-631C-AA42-285529D813EF" referredColumn="F1F6B437-06AC-1497-B408-04F1A096FCB9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5876674-B501-99EA-D644-AF831D532EBF" name="Prodavac_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 15:12:56 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31EAD65A-A3E8-C2A2-1CE1-1CDAFDE250C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63028AC7-BCC3-72F7-9247-0AE44F9932F5" name="Prodavac_Prodajno_mesto_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 15:13:27 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F280E433-75A6-DADA-F854-F0E2F7B259B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -42,6 +42,18 @@
 <colAssociation fkAssociation="BA698AC9-33C4-F7F3-B55B-B56D2CAEECEC" referredColumn="EC62E143-6FA5-6633-6E39-7885C749EF71"/>
 </associations>
 </Column>
+<Column name="Sponzorska_naknada_ID_sponzorske_naknade" id="3512C37F-448F-CA69-F215-9F8AF97D2BB6">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 15:27:34 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34BF6028-D3CB-6C59-9400-88678E5EA229" referredColumn="1BC4119C-A08F-271B-B429-871F19336B2E"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="EC790F71-DAA8-9B25-3A5E-52C21A54B2B5" name="Nagradni_fond_PK">
@@ -64,6 +76,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B3813CB4-452C-97FB-E1B0-095B756BD7E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CA60411-2A78-E8F5-8ED1-2804C5F211AB" name="Nagradni_fond_Sponzorska_naknada_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 15:27:34 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3512C37F-448F-CA69-F215-9F8AF97D2BB6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

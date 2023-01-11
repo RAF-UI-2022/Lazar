@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2DD1B657-AA50-4D27-5EDC-5B6DF0648ED6" name="Marketing">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 14:43:44 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_51</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Marketing_id" id="506A070B-EFEA-9983-4CE9-0DDAA3774584">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 14:44:06 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fudbalski_klub_fudbalski_klub_id" id="CB75DB91-8194-1500-B079-71CEC4D0CC0C">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 14:50:58 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70DF8FBB-B03A-A572-A4E9-FD5DA9361322" referredColumn="EEF7532A-0BDA-1444-169B-1544193BF7A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3A95EF9-60E6-3D7D-B442-81D5CB9DB0DD" name="Marketing_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 14:44:06 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="506A070B-EFEA-9983-4CE9-0DDAA3774584"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="286776D2-086F-B515-2D30-6A867E15F7B7" name="Marketing_Fudbalski_klub_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 14:50:58 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB75DB91-8194-1500-B079-71CEC4D0CC0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

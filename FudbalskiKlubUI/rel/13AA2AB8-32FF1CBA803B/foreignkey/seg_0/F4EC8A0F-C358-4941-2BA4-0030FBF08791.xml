@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F4EC8A0F-C358-4941-2BA4-0030FBF08791" containerWithKeyObject="C842B0B7-24E4-9178-EF7B-C7FAAB79AB99" localFKIndex="D9EAE417-3112-69F3-DD6A-827E450B5EAA" name="Upravni_odbor_Takmicenje_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 13:14:13 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<referredTableLongName>Takmicenje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BECA01D3-D43C-2A57-AA5F-5F934A7F4CB8</referredTableID>
+<keyObject>307A049D-3A8B-C9A4-A745-0E4AAD3E41C5</keyObject>
+<referredKeyID>307A049D-3A8B-C9A4-A745-0E4AAD3E41C5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>takmicenje_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

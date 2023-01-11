@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4AFA0180-EB99-3CD2-7284-190C6F7FC96D" name="Finansijsko_regulativno_telo">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 13:21:34 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_50</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_finansijskog_tela" id="F5D7AFAA-822E-D949-FF60-E9AF8E876BAE">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 13:22:07 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Takmicenje_takmicenje_id" id="AC5884B0-504F-ED4F-5FD2-7BF59F91B3CC">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 13:22:26 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D616A0B1-BA39-390E-0908-0DF6851FBB07" referredColumn="EC62E143-6FA5-6633-6E39-7885C749EF71"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60D9EB10-11DA-FED4-211E-2FB1C818F718" name="Finansijsko_regulativno_telo_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 13:22:15 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5D7AFAA-822E-D949-FF60-E9AF8E876BAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE9BF147-4632-4933-FB92-D9F5D0D4A228" name="Finansijsko_regulativno_telo_Takmicenje_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 13:22:26 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC5884B0-504F-ED4F-5FD2-7BF59F91B3CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

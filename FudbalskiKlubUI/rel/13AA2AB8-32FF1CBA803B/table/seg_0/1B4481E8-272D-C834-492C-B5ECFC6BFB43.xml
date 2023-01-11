@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B4481E8-272D-C834-492C-B5ECFC6BFB43" name="Sponzorska_naknada">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 15:25:51 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_62</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_sponzorske_naknade" id="1BC4119C-A08F-271B-B429-871F19336B2E">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 15:26:25 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kolicina" id="B1CC288B-A465-1BE3-92FA-BBFE8A19213A">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 15:26:25 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sponzor_ID_sponzora" id="785E47DD-B858-CD50-DC36-DE6AAC5E6A1E">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 15:27:23 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9A1507E-9F1D-3E94-30CD-5F2BE5645B7A" referredColumn="737ED42D-9E2C-8021-12DE-144CFED9EECB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30378BA9-B9E1-69A1-B416-259108C2B309" name="Sponzorska_naknada_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 15:26:25 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BC4119C-A08F-271B-B429-871F19336B2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97313EFF-3A06-37E3-F459-F28046F9693D" name="Sponzorska_naknada_Sponzor_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 15:27:23 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="785E47DD-B858-CD50-DC36-DE6AAC5E6A1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

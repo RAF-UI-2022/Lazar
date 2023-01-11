@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F213EF9-4ED5-1C04-C0D1-E9EB60EFFC83" name="Lokacija">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 14:44:42 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_52</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_lokacije" id="6FD5473F-0FF8-F849-239B-1215D8CA8F4A">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 14:46:26 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="923672DE-7405-ABBE-6181-6F5B7673990B" name="Lokacija_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 14:46:57 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FD5473F-0FF8-F849-239B-1215D8CA8F4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

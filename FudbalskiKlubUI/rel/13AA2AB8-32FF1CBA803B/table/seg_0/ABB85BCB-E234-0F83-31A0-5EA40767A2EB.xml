@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABB85BCB-E234-0F83-31A0-5EA40767A2EB" name="Pozicija_zaposlenog">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 14:52:34 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<ordsAlias>table_57</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_pozicije_zaposlenog_u_marketingu" id="8A935B1E-E936-410A-C059-45DFAA8FBA10">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 14:53:28 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposleni_u marketingu_Id_zapolenog" id="3CA2A1F7-7586-7155-E132-5ECF1AA148DF">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 14:55:32 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92797380-62D6-3182-41C9-CB4F071FD259" referredColumn="BC459E0B-13EB-7726-F582-FA1916CD9270"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="798ABD77-EAAE-62BE-EE97-8D16237CACDB" name="Pozicija_zaposlenog_PK">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 14:53:41 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A935B1E-E936-410A-C059-45DFAA8FBA10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3350077-360A-06F7-5FBF-BBFC06CCCCA5" name="Pozicija_zaposlenog_Zaposleni_u marketingu_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 14:55:32 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CA2A1F7-7586-7155-E132-5ECF1AA148DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

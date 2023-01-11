@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BECA01D3-D43C-2A57-AA5F-5F934A7F4CB8" name="Takmicenje">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E29A8BCD-CCDE-8A13-EEF9-407FFA08DF7A" name="Direktor_prodaje">
 <createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:53:18 UTC</createdTime>
+<createdTime>2023-01-11 15:02:38 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
-<ordsAlias>table_37</ordsAlias>
+<ordsAlias>table_59</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="takmicenje_id" id="EC62E143-6FA5-6633-6E39-7885C749EF71">
+<Column name="Id_direktora" id="F3DEC74D-0E61-FB96-658F-70C3177BB53C">
 <createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:53:43 UTC</createdTime>
+<createdTime>2023-01-11 15:03:11 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Utakmica_utakmica_id" id="1C0FC393-AE9D-8ED3-824E-48F0C5729B40">
+<Column name="Prodaja_Id_prodaje" id="66B86FC2-C1A3-E26F-C4A3-EDC843A4EE15">
 <createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:55:18 UTC</createdTime>
+<createdTime>2023-01-11 15:11:12 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,12 +29,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="01AE914A-9817-9649-3BC8-147E64BB9272" referredColumn="B9C84642-E4C4-0585-D3DD-15F5A326BC57"/>
+<colAssociation fkAssociation="0891B19C-406A-0F59-3F2C-254135A64513" referredColumn="CDC8EA61-5347-C54B-44A2-FCB904BD22A5"/>
 </associations>
 </Column>
-<Column name="Tip_takmicenja_tip_takmicenja_id" id="AD99933B-1E66-CBF4-A0D9-89C48716C27E">
+<Column name="Prodaja_Direktor_prodaje_Id_direktora" id="92078479-A46E-FB7E-83A6-219D57CCC3BE">
 <createdBy>Laki</createdBy>
-<createdTime>2022-12-14 14:58:49 UTC</createdTime>
+<createdTime>2023-01-11 15:11:12 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,64 +43,55 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D7A2C674-1913-71A5-8D72-670AB5EEBCB4" referredColumn="167CFDD8-AE93-17B8-4679-A78DA155CF61"/>
+<colAssociation fkAssociation="0891B19C-406A-0F59-3F2C-254135A64513" referredColumn="B1297F49-1D8D-E05A-E0F2-62251CE5B02E"/>
 </associations>
 </Column>
-<Column name="Region_ID_regiona" id="E5E47E61-1CA7-E5A7-E57A-5E14E98CC88A">
+<Column name="Zaposleni_u marketingu_Id_zapolenog" id="BCAEFDD0-2AE3-CE79-1B20-C4E2FA818AD8">
 <createdBy>Laki</createdBy>
-<createdTime>2023-01-11 15:24:30 UTC</createdTime>
+<createdTime>2023-01-11 15:11:58 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C92BE894-63E0-74D5-B076-7AC4BE06B7C7" referredColumn="428C6FEE-9B66-767A-B218-E36138DB49F6"/>
+<colAssociation fkAssociation="C068F96F-DB78-1311-26C2-6EE46D9F193A" referredColumn="BC459E0B-13EB-7726-F582-FA1916CD9270"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="307A049D-3A8B-C9A4-A745-0E4AAD3E41C5" name="Takmicenje_PK">
+<ind_PK_UK id="4A99FB3B-C62B-F7F5-F2FE-F3D752210862" name="Direktor_prodaje_PK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:53:43 UTC</createdTime>
+<createdTime>2023-01-11 15:06:51 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EC62E143-6FA5-6633-6E39-7885C749EF71"/>
+<colUsage columnID="F3DEC74D-0E61-FB96-658F-70C3177BB53C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7E757911-D528-023A-ED44-589BC52F8F90" name="Takmicenje_Utakmica_FK">
+<ind_PK_UK id="EC0E3DBC-37A0-734F-B842-21258BB224A9" name="Direktor_prodaje_Prodaja_FK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-11-16 11:55:18 UTC</createdTime>
+<createdTime>2023-01-11 15:11:12 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1C0FC393-AE9D-8ED3-824E-48F0C5729B40"/>
+<colUsage columnID="66B86FC2-C1A3-E26F-C4A3-EDC843A4EE15"/>
+<colUsage columnID="92078479-A46E-FB7E-83A6-219D57CCC3BE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="75E3BFFD-B69E-89E6-30F0-14F2EC6A6468" name="Takmicenje_Tip_takmicenja_FK">
+<ind_PK_UK id="A6D437A1-AD8C-7337-66B4-43AC1219BA91" name="Direktor_prodaje_Zaposleni_u marketingu_FK">
 <createdBy>Laki</createdBy>
-<createdTime>2022-12-14 14:58:49 UTC</createdTime>
+<createdTime>2023-01-11 15:11:58 UTC</createdTime>
 <ownerDesignName>FudbalskiKlubUI</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AD99933B-1E66-CBF4-A0D9-89C48716C27E"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="3BCEECC4-611B-803D-8FB1-816414A7504D" name="Takmicenje_Region_FK">
-<createdBy>Laki</createdBy>
-<createdTime>2023-01-11 15:24:30 UTC</createdTime>
-<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="E5E47E61-1CA7-E5A7-E57A-5E14E98CC88A"/>
+<colUsage columnID="BCAEFDD0-2AE3-CE79-1B20-C4E2FA818AD8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

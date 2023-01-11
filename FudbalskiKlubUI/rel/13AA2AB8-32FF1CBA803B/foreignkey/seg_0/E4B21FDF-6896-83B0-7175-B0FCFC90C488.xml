@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4B21FDF-6896-83B0-7175-B0FCFC90C488" containerWithKeyObject="10080E5E-E77B-A050-A634-2E13B58DE524" localFKIndex="CDF5CD2C-A483-4485-ABAC-C19311052030" name="Clan_Finansijsko_regulativno_telo_FK">
+<createdBy>Laki</createdBy>
+<createdTime>2023-01-11 13:22:30 UTC</createdTime>
+<ownerDesignName>FudbalskiKlubUI</ownerDesignName>
+<referredTableLongName>Finansijsko_regulativno_telo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4AFA0180-EB99-3CD2-7284-190C6F7FC96D</referredTableID>
+<keyObject>60D9EB10-11DA-FED4-211E-2FB1C818F718</keyObject>
+<referredKeyID>60D9EB10-11DA-FED4-211E-2FB1C818F718</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_finansijskog_tela</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
